@@ -1,0 +1,26 @@
+HTTP/2 401 
+date: Sun, 25 Oct 2026 11:20:27 GMT
+strict-transport-security: max-age=31536000; includeSubDomains
+x-region-served: us-east-2
+server: envoy
+
+HTTP/2 401 
+date: Sun, 25 Oct 2026 11:22:00 GMT
+strict-transport-security: max-age=31536000; includeSubDomains
+x-region-served: us-east-2
+server: envoy
+
+HTTP/2 301 
+date: Sun, 25 Oct 2026 11:25:50 GMT
+content-type: text/html; charset=UTF-8
+content-length: 160
+content-security-policy: default-src 'none'
+x-content-type-options: nosniff
+location: /onboarding/
+vary: Accept-Encoding
+x-envoy-upstream-service-time: 2
+set-cookie: web-routing="91dea721587ac06b"; Max-Age=3900; HttpOnly
+strict-transport-security: max-age=31536000; includeSubDomains
+x-region-served: us-east-2
+server: envoy
+
